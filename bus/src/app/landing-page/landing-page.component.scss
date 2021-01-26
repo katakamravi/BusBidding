@@ -1,0 +1,80 @@
+.busIcon{
+    width: 200px;
+    height: 50px;
+}
+.card-section{
+    .card{
+        box-shadow: 0px 0px 3px 1px #ccc
+    }
+    img{
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+    h6{
+        font-weight: bold;
+        color: #000;
+        
+    }
+    color: #aaaaaa;
+    p{
+        margin: 0;
+    }
+    .card-body{
+        padding: 10px;
+        img{
+            height: 70px;
+        }
+    }
+     .tab-container{
+         font-size: 13px;
+     }
+      .fa::before{
+          vertical-align: middle;
+          font-size: 11px;
+          margin-right: 5px;
+      }
+      .fa-calendar::before{
+          color: red;
+          margin-right: 5px;
+      }
+      
+      .fa-file::before{
+          font-size: 15px;
+      }
+
+      .fa-map-marker{
+          color: red;
+      }
+       
+}
+
+.mob-content{
+    .highlightedprice{
+        padding: 10px;
+        background-color: green;
+        color: #fff;
+        border-radius: 5px;
+    }
+}
+
+@media(min-width:768px){
+    .mob-content{
+        display: none;
+    }
+}
+@media(max-width :768px){
+    .tab-container{
+        .desktopContent{
+            display: none;
+
+        }
+        img{
+            height: auto !important;
+            float: right;
+        }
+    }
+    .mob-content{
+        display: block;
+    }
+ 
+}
